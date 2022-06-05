@@ -10,10 +10,10 @@
   <div class="overlay" />
 
   <div class="text">
-    <h1>Your guide to a more mindfull self</h1>
-    <h3>
+    <h1 class="text-primary-lightest">Your guide to a more mindfull self</h1>
+    <h4>
       Fortimind will help you everyday to become a better version of yourself!
-    </h3>
+    </h4>
   </div>
 </header>
 
@@ -33,6 +33,6 @@
   }
 
   header .text {
-    @apply relative z-10 text-light;
+    @apply relative z-10 text-light w-[65%] bg-dark/[.6] rounded p-8;
   }
 </style>
