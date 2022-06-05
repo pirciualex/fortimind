@@ -15,6 +15,6 @@
 <style lang="postcss">
   :global(body) {
     @apply bg-light min-h-screen relative;
-    /* font-family: "Open Sans", Arial, Helvetica, sans-serif; */
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
   }
 </style>
