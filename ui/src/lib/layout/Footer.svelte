@@ -4,6 +4,6 @@
 
 <style lang="postcss">
   footer {
-    @apply flex justify-center items-center py-4 bg-dark text-light;
+    @apply flex justify-center items-center h-[10vh] bg-dark text-light;
   }
 </style>

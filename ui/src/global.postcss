@@ -11,6 +11,17 @@
   transition: all 400ms;
 }
 
+.html::-webkit-scrollbar,
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 h1,
 h2,
 h3,
