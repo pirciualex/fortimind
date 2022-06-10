@@ -1,4 +1,5 @@
 <script>
+  import Footer from "$lib/layout/Footer.svelte";
   import "../global.postcss";
 </script>
 
@@ -11,6 +12,7 @@
 <div class="container mx-auto">
   <slot />
 </div>
+<Footer />
 
 <style lang="postcss">
   :global(body) {

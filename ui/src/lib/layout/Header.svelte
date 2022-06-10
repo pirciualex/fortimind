@@ -4,7 +4,7 @@
 
 <header>
   <video autoplay muted loop>
-    <source src="{assets}/bg.mp4" type="video/mp4" />
+    <source src="{assets}/img/bg.mp4" type="video/mp4" />
   </video>
 
   <div class="overlay" />
@@ -33,6 +33,6 @@
   }
 
   header .text {
-    @apply relative z-10 text-light w-[65%] bg-dark/[.6] rounded p-8;
+    @apply relative z-10 text-light w-full md:w-4/5 bg-dark/[.6] rounded p-8;
   }
 </style>
