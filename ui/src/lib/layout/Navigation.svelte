@@ -57,7 +57,7 @@
 
 <style lang="postcss">
   nav {
-    @apply flex justify-between px-4 bg-dark h-[10vh];
+    @apply flex justify-between px-4 bg-dark h-[10vh] sticky bottom-0;
   }
 
   nav a {
