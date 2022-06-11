@@ -1,7 +1,7 @@
 {
   "name": "Fortimind",
   "short_name": "Fortimind",
-  "start_url": "/",
+  "start_url": "/dashboard",
   "background_color": "#EEEEEE",
   "theme_color": "#31CBA4",
   "display": "standalone",

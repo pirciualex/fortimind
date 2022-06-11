@@ -1,10 +1,12 @@
-<script>
+<script lang="ts">
+  import { page } from "$app/stores";
   import Footer from "$lib/layout/Footer.svelte";
   import Navigation from "$lib/layout/Navigation.svelte";
   import { onMount } from "svelte";
   import "../global.postcss";
-  // console.log(window.window.innerWidth);
 
+  let currentPage;
+  page.subscribe((p) => (currentPage = p.url.pathname));
   let onMobile = false;
   onMount(() => {
     onMobile =
@@ -23,7 +25,7 @@
 <div class="container mx-auto">
   <slot />
 </div>
-{#if onMobile}
+{#if onMobile && currentPage !== "/"}
   <Navigation />
 {:else}
   <Footer />
