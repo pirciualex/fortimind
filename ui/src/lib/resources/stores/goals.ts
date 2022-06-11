@@ -28,3 +28,7 @@ export const goalsData = writable([
     isPrimary: false,
   },
 ]);
+
+// export const primaryGoal = writable(
+//   goalsData.subscribe((g) => g.find((x) => x.isPrimary))
+// );

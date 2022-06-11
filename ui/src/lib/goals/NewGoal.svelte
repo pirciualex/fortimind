@@ -3,6 +3,7 @@
   import Input from "$lib/components/Input.svelte";
   import { goalsData } from "$lib/resources";
 
+  export let isPrimary = false;
   let goalDescription: string;
   let canAddGoal = false;
 
@@ -24,7 +25,7 @@
           id: Math.floor(Math.random() * 10000),
           description: goalDescription,
           done: false,
-          isPrimary: false,
+          isPrimary,
         },
       ];
     });
