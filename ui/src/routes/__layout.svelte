@@ -5,7 +5,7 @@
   import { onMount } from "svelte";
   import "../global.postcss";
 
-  let currentPage;
+  let currentPage: string;
   page.subscribe((p) => (currentPage = p.url.pathname));
   let onMobile = false;
   onMount(() => {
